@@ -27,15 +27,16 @@ To get started with the Store Monitoring App, follow these steps:
 
 ## Features & Potential Improvements
 
-Here are several ways the project could be enhanced for greater efficiency and scalability:
+Here are some ways that I think the project could be improved:
 
-1. Optimize performance by adding indexes on commonly queried database fields.
-2. Refactor the codebase to introduce a dedicated service layer for handling business logic.
-3. Secure the API by adding authentication and role-based access control.
-4. Build interactive dashboards to visualize store performance metrics over time.
-5. Enable monitoring alerts for anomalies or extended downtime.
-6. Develop a frontend interface for store owners to monitor their own store activity.
-7. Provide options to export reports not only in CSV but also JSON, Excel, or PDF.
+1. **Database Optimization**
+   - Add indexing on frequently queried columns like `store_id` and `timestamp_utc` to improve query speed.
+
+2. **Security Enhancements**
+   - Implement authentication and authorization using JWT to restrict access to the report generation and download endpoints.
+
+3. **Frontend Interface**
+   - Create a simple web UI where store owners can log in, view real-time reports, and trigger CSV generation manually.
 
 ---
 
