@@ -8,6 +8,8 @@ import io
 import pytz
 from datetime import time
 
+
+
 def extract_zip_file(zip_path, extract_to=None):
     """Extract the contents of the zip file, handling nested zip files if necessary"""
     if extract_to is None:
