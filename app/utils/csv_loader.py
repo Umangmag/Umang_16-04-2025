@@ -16,7 +16,7 @@ def extract_zip_file(zip_path, extract_to=None):
         # Extract to the same directory as the zip file
         extract_to = os.path.dirname(zip_path)
     
-    # Create a specific extraction folder
+    
     extract_dir = os.path.join(extract_to, "extracted_data")
     os.makedirs(extract_dir, exist_ok=True)
     
